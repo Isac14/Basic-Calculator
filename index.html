@@ -8,16 +8,25 @@
 
 <body>
    
-  <form>
-    <input type="text" placeholder="Type a number" id="n1">
-    <input type="text" placeholder="Type the operation" id="operation">
-    <input type="text" placeholder="Type another number" id="n2">
+    <main>
+        <form>
+            <input type="text" placeholder="Type a number" id="n1">
+            <input type="text" placeholder="Type the operation" id="operation" >
+            <label>
+                soma: + | subtração: - | multiplicação: * | divisão: / 
+            </label>
+            <input type="text" placeholder="Type another number" id="n2">
+            
+            
+        </form>
     
-    
-    <input type="reset">
-  </form>
-  <button onclick="multiply()">Calculate</button>
+        <input id="btnCalc" type="submit" value="Calcular" onclick="multiply()">
+  
+  
+  <!-- Div destinada para o resultado no JS -->
   <div></div>
+    </main>
+  
 
 <script src="./script.js"></script>
 </body>

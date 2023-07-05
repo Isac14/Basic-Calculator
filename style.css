@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(149, 206, 208);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color:bisque;
+}
+
+form input::placeholder{
+    color: black;
+}
+
+form label{
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#btnCalc{
+    margin: 10px;
+    padding: 15px;
+    font-size: 1.3em;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    width: 15%;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+div{
+    margin-top: 20px;
+    font-size: 2em;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
