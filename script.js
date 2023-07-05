@@ -20,6 +20,9 @@ function multiply(){
     else if(operation == '/'){
         result = parseInt(n1) / parseInt(n2)
     }
+    else{
+        result = 'Inválido'
+    }
 
     console.log(result)
     div.innerHTML = result
