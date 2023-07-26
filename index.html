@@ -2,32 +2,30 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Calculator</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Media/calculater icon 2.png">
 </head>
 
 <body>
-   
     <main>
         <form>
-            <input type="number" placeholder="Type a number" id="n1">
-            <input type="text" placeholder="Type the operation" id="operation" >
+            <input type="number" placeholder="Type a number" id="n1" autocomplete="off">
+            <input type="text" placeholder="Type the operation" id="operation" autocomplete="off">
             <label>
                 soma: + | subtração: - | multiplicação: * | divisão: / 
             </label>
-            <input type="number" placeholder="Type another number" id="n2">
+            <input type="number" placeholder="Type another number" id="n2" autocomplete="off">
             
             
         </form>
     
         <input id="btnCalc" type="submit" value="Calcular" onclick="multiply()">
-  
-  
-  <!-- Div destinada para o resultado no JS -->
-  <div></div>
-    </main>
-  
 
-<script src="./script.js"></script>
+    <!-- Div destinada para o resultado no JS -->
+    <div></div>
+
+    </main>
+    <script src="./script.js"></script>
 </body>
 </html>
