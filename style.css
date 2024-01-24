@@ -1,63 +1,91 @@
-*{
-    user-select: none;
+* {
+  user-select: none;
 }
 
-body{
-    background-color:rgb(149, 206, 208);
-    overflow: hidden;
+body {
+  background-color: #ffb884;
+  overflow: hidden;
 }
 
-main{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 5rem;
+  color: #fff;
+  background-color: #2e4347;
+  padding: 20px;
+  border-radius: 50px;
+  transition: 0.8s;
 }
 
-form input{
-    margin: 10px;
-    padding: 10px;
-    font-size: 1.2em;
-    text-align: center;
-    border-radius: 5px;
-    border: none;
-    background-color:bisque;
+.title:hover {
+  background-color: #a6f6af;
+  color: black;
 }
 
-form input::placeholder{
-    color: black;
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-form label{
-    text-align: center;
-    font-size: 1.1em;
-    margin-bottom: 10px;
+form input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #2e4347;
+  color: #fff;
+  transition: 1s;
 }
 
-#btnCalc{
-    margin: 10px;
-    padding: 15px;
-    font-size: 1.3em;
-    text-align: center;
-    border-radius: 10px;
-    border: none;
-    width: 15%;
-    background-color: rgb(255, 0, 0);
-    color: white;
-    cursor: pointer;
+form input::placeholder {
+  color: #fff;
 }
-div{
-    margin-top: 20px;
-    font-size: 2em;
-    border: 2px solid red;
-    border-radius: 10px;
-    padding: 10px;
+
+form label {
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  max-width: 15vw;
+}
+
+#btnCalc {
+  margin: 20px 0;
+  padding: 15px;
+  font-size: 1.3em;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  max-width: 50vw;
+  background-color: #a6f6af;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.8s;
+}
+
+#btnCalc:hover {
+  background-color: #4f2958;
+  color: #fff;
+}
+.result {
+  margin-top: 20px;
+  font-size: 4em;
+  border-radius: 100px;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: 0px 0px 100px 10px #4f2958;
+  margin-top: 5rem;
 }
